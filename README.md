@@ -1,9 +1,9 @@
 
-<h2 align="center"><b>Owner: <a href="https://telegram.dog/krish1303y">NOVA</a></b></h2>
+<h2 align="center"><b>Owner: <a>NOVA</a></b></h2>
 <br>
 <p align="center"><a><img src="https://telegra.ph/file/8b5c468b8552549218d8c.jpg"></a></p> 
 </p>
-<h1>BLACK LIGHTNING</h1>
+<h1>ＩＮＦＩＮＩＴＥ ＶＯＩＤ</h1>
 <b>A Powerful, Smart And Simple Userbot In Telethon.</b>
 <br>
 <br>
