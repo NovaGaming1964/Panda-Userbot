@@ -8,7 +8,7 @@ from userbot.utils import lightning_cmd
 
 LIGHTNING_ALV_IMG = os.environ.get("LIGHTNING_ALV_IMG", None)
 if not LIGHTNING_ALV_IMG:
-    LIGHTNING_ALV_IMG = "https://telegra.ph/file/b01cd4ef19edc14195648.mp4"
+    LIGHTNING_ALV_IMG = "https://telegra.ph/file/d2e9f3128bf34a660a693.mp4"
 
 
 
@@ -43,7 +43,7 @@ def lightning_Read_time(seconds: int) -> str:
 
     return kirsh
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "вℓα¢к ℓιgнтηιηg"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ᴘᴀɴᴅᴀ-ᴜꜱᴇʀʙᴏᴛ"
 
 TG = str(TG_GRUP) if TG_GRUP else "Not  Yet😁😁"
 TG_CHANN = str(TG_CHANNEL) if TG_CHANNEL else "Not Yet😁😁"
@@ -51,14 +51,10 @@ TG_CHANN = str(TG_CHANNEL) if TG_CHANNEL else "Not Yet😁😁"
 
 from userbot import CMD_LIST
 
-pm_caption = "**Black Lightning is online**\n\n"
+pm_caption = "**ᴘᴀɴᴅᴀ ᴜꜱᴇʀʙᴏᴛ is online**\n\n"
 pm_caption += f"★ **Boss**            : {DEFAULTUSER}\n"
 pm_caption += "★ **Version**        : 1.17.5\n"
-pm_caption += "★ **Channel**          : [ᴊᴏɪɴ](https://t.me/black_lightning_channel)\n"
-
-pm_caption += "★ **Support Group**           : [ᴊᴏɪɴ](https://t.me/lightning_support_group)\n"
-
-pm_caption += "[┏┓━┏┓━━━━┏┓━┏┓━━━━━\n┃┃━┃┃━━━━┃┃━┃┃━━━━━\n┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃\n┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃\n┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://t.me/black_lightning_channel)"
+pm_caption += "[┏┓━┏┓━━━━┏┓━┏┓━━━━━\n┃┃━┃┃━━━━┃┃━┃┃━━━━━\n┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃\n┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃\n┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://t.me/a)"
 
 @borg.on(lightning_cmd(pattern=r"alive"))
 @borg.on(sudo_cmd(pattern=r"alive", allow_sudo=True))
