@@ -21,14 +21,14 @@ from . import *
 
 #### Variables ####
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ʙʟᴀᴄᴋ-ʟɪɢʜᴛɴɪɴɢ ᴜꜱᴇʀ "
-ALIVE_MSG = f"This is {DEFAULTUSER}'s 𝐁𝐥𝐚𝐜𝐤-𝐋𝐢𝐠𝐡𝐭𝐧𝐢𝐧𝐠 𝐔𝐬𝐞𝐫𝐛𝐨𝐭"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ᴘᴀɴᴅᴀ-ᴜꜱᴇʀʙᴏᴛ "
+ALIVE_MSG = f"This is {DEFAULTUSER}'s ᴘᴀɴᴅᴀ-ᴜꜱᴇʀʙᴏᴛ"
 
 ALIVE_PIC = Config.ALIVE_PHOTTO
 
 if ALIVE_PIC is None :
 
-    ALIVE_PIC = "https://telegra.ph/file/4f754de25cb890e3fb51e.mp4"
+    ALIVE_PIC = "https://telegra.ph/file/d2e9f3128bf34a660a693.mp4"
 
 botversion = "1.2.0"
 
@@ -92,7 +92,7 @@ async def alive(e):
     uptime = get_readable_time((time.time() - Lastupdate))
 
     cap = """
-**𝐁𝐥𝐚𝐜𝐤-𝐋𝐢𝐠𝐡𝐭𝐧𝐢𝐧𝐠 𝐔𝐬𝐞𝐫𝐛𝐨𝐭**
+**ℙ𝔸ℕ𝔻𝔸-𝕌𝕊𝔼ℝ𝔹𝕆𝕋**
 **{}**
 ✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵
 ╔════❰ Ⲃⲟⲧ Ⲓⲛϝⲟʀⲙⲁⲧⲓⲟⲛ ❱═❍⊱❁۪۪
@@ -104,7 +104,7 @@ async def alive(e):
 ║┣⪼ **Ⲃⲟⲧ Ⲣⲓⲛⳋ** - `{}`
 ║┣⪼ **Ⲣⲩⲧⲏⲟⲛ** - `{}` 
 ║┣⪼ **Ⲧⲉⳑⲉⲧⲏⲟⲛ** - `{}` 
-║┣⪼ [✨𝐁𝐥𝐚𝐜𝐤-𝐋𝐢𝐠𝐡𝐭𝐧𝐢𝐧𝐠 𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨](https://github.com/KeinShin/Black-Lightning/)
+║┣⪼ [✨ℙ𝔸ℕ𝔻𝔸-𝕌𝕊𝔼ℝ𝔹𝕆𝕋✨](https://github.com/NovaGaming1964/Panda-Userbot)
 ║╰━━━━━━━━━━━━━━━➣ ╚══════════════════❍⊱❁۪۪
 """.format(
 
