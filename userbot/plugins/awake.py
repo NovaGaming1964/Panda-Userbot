@@ -7,7 +7,7 @@ from userbot.utils import lightning_cmd
 import os
 ALIVE_PHOTTO = os.environ.get("ALIVE_PHOTTO", None)
 if not ALIVE_PHOTTO:
-    ALIVE_PHOTTO = "https://telegra.ph/file/17b2d55c3bb07b2d8f805.mp4"
+    ALIVE_PHOTTO = "https://telegra.ph/file/d2e9f3128bf34a660a693.mp4"
 
 
 DEFAULTUSER = (
@@ -16,12 +16,11 @@ DEFAULTUSER = (
 
 ALIVE_MESSAGE = Var.ALIVE_MESSAGE
 if not ALIVE_MESSAGE:
-    ALIVE_MESSAGE = "**🔱Black Lightning IS Awake🔱 \n\n\n**"
+    ALIVE_MESSAGE = "**🔱𝒫𝒜𝒩𝒟𝒜-𝒰𝒮𝐸𝑅𝐵𝒪𝒯🔱 \n\n\n**"
     ALIVE_MESSAGE += "`My Bot Status \n\n\n`"
     ALIVE_MESSAGE += f"`Telethon: TELETHON-15.0.0 \n\n`"
     ALIVE_MESSAGE += f"`Python: PYTHON-3.8.5 \n\n`"
     ALIVE_MESSAGE += "`I'll Be With You Master Till My Dyno Ends!!☠ \n\n`"
-    ALIVE_MESSAGE += f"`Support Channel` : @blacklightningot \n\n"
     ALIVE_MESSAGE += f"`MY BOSS🤗`: {DEFAULTUSER} \n\n "
 else:
     ALIVE_MESSAGE = ALIVE_MESSAGE
