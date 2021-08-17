@@ -91,13 +91,13 @@ This is a userbot made for telegram. I made this userbot with help of all other 
 
 Simply clone the repository and run the main file:
 ```sh
-git clone https://github/KeinShin/Black-Lightning.git
-cd Black Lightning 
+git clone https://github.com/NovaGaming1964/Panda-Userbot.git
+cd Panda-Userbot 
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
 pip install -r requirements.txt
 # <Create local_config.py with variables as given below>
-python3 -m Black-Lightning
+python3 -m Panda-Userbot
 ```
 
 
@@ -112,5 +112,5 @@ python3 -m Black-Lightning
     [-] APP_ID:   You can get this value from https://my.telegram.org
     [-] API_HASH :   You can get this value from https://my.telegram.org
     
-[+] The Lightning Bot will not work without setting the mandatory vars.
+[+] The Bot will not work without setting the mandatory vars.
 ```
