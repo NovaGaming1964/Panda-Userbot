@@ -35,7 +35,7 @@
 
 
 ## Total Commands = CMDS Are More Than 470 :D
-# About ɮʟǟƈᏦ ʟɨɢɦƭռɨռɢ
+# About P̴A̸N̵D̸A̸ ̸B̷O̸T̴
 
 1. Can Do Many This Such As Download ANy Video From Youtube and Other Sites
 
