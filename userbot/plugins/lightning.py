@@ -1,6 +1,5 @@
 #Plugin by @Rishisuperyo
 #Animation by Rishisuperyo
-#kang =gey ,keep credits = cool coder 😶
 #usage .lightning
 
 from telethon import events
@@ -12,5 +11,5 @@ from userbot import CMD_HELP
 async def hapy(event):
 
 
-     a="ㅤㅤ  █\n         █\n        █\n       █\n      █░░░░░░█\n                        █\n                        █\n                       █\n                     █\n\n`⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️\nBLACK LIGHTNING IS OP⚡️\n_______________________________`"
+     a="ㅤㅤ  █\n         █\n        █\n       █\n      █░░░░░░█\n                        █\n                        █\n                       █\n                     █\n\n`⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️\nPANDA-USERBOT IS OP⚡️\n_______________________________`"
      await event.edit(a)
