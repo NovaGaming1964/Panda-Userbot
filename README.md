@@ -1,5 +1,5 @@
 
-<h2 align="center"><b>Owner: <a>NOVA</a></b></h2>
+<h2 align="center"><b>Owner: <a>🅽🅾🆅🅰</a></b></h2>
 <br>
 <p align="center"><a><img src="https://telegra.ph/file/8b5c468b8552549218d8c.jpg"></a></p> 
 </p>
