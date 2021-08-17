@@ -20,6 +20,7 @@
 * [Uniborg](https://github.com/SpEcHiDe/UniBorg)
 * [CipherX](https://t.me/CipherXBot)
 * [Hellboi-Danish](https://t.me/Hellboi-Danish)
+* [KeinShin 🇮🇳](https://t.me/krish1303y)
 
 
 
