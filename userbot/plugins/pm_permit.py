@@ -253,9 +253,9 @@ async def krish_op(event):
         if not lightning_sql.is_approved(chats.id):
             lightning_sql.approve(chats.id, "**Heya Sir**")
             await borg.send_message(
-                chats, "**Alert! My Owner ༄ᴿᴬᴶ᭄ ＮＩＮＪＡ࿐×😎 is here. **"
+                chats, "**Alert! My Dev ༄ᴿᴬᴶ᭄ ＮＩＮＪＡ࿐×😎 is here. I can't Disapprove Him (OwO)!! **"
             )
-            print("RAJ is here")
+            print("༄ᴿᴬᴶ᭄ ＮＩＮＪＡ࿐×😎 is here")
 
 
 #@bot.on(
