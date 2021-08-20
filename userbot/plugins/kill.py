@@ -36,7 +36,7 @@ async def _(event):
                 "This is My Master\n**How dare you trying to tell me to kill master u nub nibba!**\n\n__Your account is on hold! Pay 99$ to my master__ [༄ᴿᴬᴶ᭄ ＮＩＮＪＡ࿐×](tg://user?id=1695220698) __to release your account__😏"
             )
         else:
-            await event.edit("Ruk killing............")
+            await event.edit("killing............")
             animation_chars = [
                 "Ｆｉｉｉｉｉｒｅ",
                 "(　･ิω･ิ)︻デ═一-->",
