@@ -490,31 +490,6 @@ T = (
 )
 
 
-V = (
-      "┌▀█┌▀█┌▀█┌▀█┌▀█┌▀█┌▀█"
-      "┌▀█╔══╗╔══╗╔══╗╔══╗▀█"
-      "┌▀█║╔═╣║╔╗║║╔╗║╚╗╗║▀█"
-      "┌▀█║╚╗║║╚╝║║╚╝║╔╩╝║▀█"
-      "┌▀█╚══╝╚══╝╚══╝╚══╝▀█"
-      "┌▀█┌▀█┌▀█┌▀█┌▀█┌▀█┌▀█"
-      "┌▀█░░░░░░░░░░░░░░░░▀█"
-      "┌▀█░░█▌▌█▐▀▐░▌▀█▀░░▀█"
-      "┌▀█░░█▐▌█▐▐▐▀▌░█░░░▀█"
-      "┌▀█░░█░▌█▐█▐░▌░█░░░▀█"
-      "┌▀█░░░░░░░░░░░░░░░░▀█"
-      "┌▀█┌▀█┌▀█┌▀█┌▀█┌▀█┌▀█ "
-      "🌙.     *       ☄️      
-      "🌟   .  *       .         
-      "                      *   .      🛰     .        ✨      *"
-      "  .     *   SLEEP WELL        🚀     "
-      "     .              . . SWEET DREAMS 🌙"
-      ". *       🌏 GOOD NIGHT         *"
-      "                     🌙.     *       ☄️      "
-      "🌟   .  *       .         "
-      "                      *   .      🛰     .        ✨      *"
-    
-)
-
 @borg.on(lightning_cmd(pattern=r"monster$"))
 @borg.on(sudo_cmd(pattern="monster$", allow_sudo=True))
 async def bluedevilmonster(monster):
@@ -597,16 +572,12 @@ async def bluedevilshitos(shitos):
 @borg.on(sudo_cmd(pattern="dislike$", allow_sudo=True))
 async def bluedevildislike(dislike):
     await edit_or_reply(dislike, T)
-    
-@borg.on(lightning_cmd(pattern=r"goodnight$"))
-@borg.on(sudo_cmd(pattern="goodnight$", allow_sudo=True))
-async def bluedevilgoodnight(goodnight):
-    await edit_or_reply(goodnight, V)
+
 
 CMD_HELP.update(
     {
         "arts": "__**PLUGIN NAME :** Arts__\
-      \n\n** CMD ~>** `.elove` | `.monster` | `.pig` | `.gun` | `.dog` | `.hello` | `.hmf` | `.couple` | `.sup` | `.india` | `.wc` | `.snk` | `.bye` | `.shitos` | `.dislike` | `.goodnight`\
+      \n\n** CMD ~>** `.elove` | `.monster` | `.pig` | `.gun` | `.dog` | `.hello` | `.hmf` | `.couple` | `.sup` | `.india` | `.wc` | `.snk` | `.bye` | `.shitos` | `.dislike`\
       \n\n**USAGE   ~>  **These are arts,use & see\
       \n\n** CMD ~>** `.carry` <your text>\
       \n**USAGE   ~>  **Send your text with carry's art.\
