@@ -14,17 +14,7 @@ plugin_category = "utils"
 CARBONLANG = "auto"
 
 
-@catub.cat_cmd(
-    pattern="carbon(?:\s|$)([\s\S]*)",
-    command=("carbon", plugin_category),
-    info={
-        "header": "Carbon generators for given text (Fixed style)",
-        "usage": [
-            "{tr}carbon <text>",
-            "{tr}carbon <reply to text>",
-        ],
-    },
-)
+@register(outgoing=True, pattern="^.carbon")
 async def carbon_api(event):
     """A Wrapper for carbon.now.sh"""
     await event.edit("`Processing..`")
@@ -84,18 +74,7 @@ async def carbon_api(event):
     await cat.delete()
 
 
-@catub.cat_cmd(
-    pattern="krb(?:\s|$)([\s\S]*)",
-    command=("krb", plugin_category),
-    info={
-        "header": "Carbon generators for given text. each time gives  random style. You can also use patcicular style by using semicolon after text and name",
-        "usage": [
-            "{tr}krb <text>",
-            "{tr}krb <reply to text>",
-            "{tr}krb <text> ; <style name>",
-        ],
-    },
-)
+@register(outgoing=True, pattern="^.karb")
 async def carbon_api(event):
     """A Wrapper for carbon.now.sh"""
     cat = await edit_or_reply(event, "`Processing....`")
@@ -179,17 +158,7 @@ async def carbon_api(event):
     await cat.delete()
 
 
-@catub.cat_cmd(
-    pattern="kar1(?:\s|$)([\s\S]*)",
-    command=("kar1", plugin_category),
-    info={
-        "header": "Carbon generators for given text (Fixed style)",
-        "usage": [
-            "{tr}kar1 <text>",
-            "{tr}kar1 <reply to text>",
-        ],
-    },
-)
+@register(outgoing=True, pattern="^.kar1")
 async def carbon_api(event):
     """A Wrapper for carbon.now.sh"""
     cat = await edit_or_reply(event, "🔲🔲🔲🔲🔲")
@@ -246,17 +215,7 @@ async def carbon_api(event):
     await cat.delete()
 
 
-@catub.cat_cmd(
-    pattern="kar2(?:\s|$)([\s\S]*)",
-    command=("kar2", plugin_category),
-    info={
-        "header": "Carbon generators for given text (Fixed style)",
-        "usage": [
-            "{tr}kar2 <text>",
-            "{tr}kar2 <reply to text>",
-        ],
-    },
-)
+@register(outgoing=True, pattern="^.kar2")
 async def carbon_api(event):
     """A Wrapper for carbon.now.sh"""
     cat = await edit_or_reply(event, "📛📛📛📛📛")
@@ -313,17 +272,7 @@ async def carbon_api(event):
     await cat.delete()
 
 
-@catub.cat_cmd(
-    pattern="kar3(?:\s|$)([\s\S]*)",
-    command=("kar3", plugin_category),
-    info={
-        "header": "Carbon generators for given text (Fixed style)",
-        "usage": [
-            "{tr}kar3 <text>",
-            "{tr}kar3 <reply to text>",
-        ],
-    },
-)
+@register(outgoing=True, pattern="^.kar3")
 async def carbon_api(event):
     """A Wrapper for carbon.now.sh"""
     cat = await edit_or_reply(event, "🎛🎛🎛🎛🎛")
@@ -381,17 +330,7 @@ async def carbon_api(event):
     await cat.delete()
 
 
-@catub.cat_cmd(
-    pattern="kar4(?:\s|$)([\s\S]*)",
-    command=("kar4", plugin_category),
-    info={
-        "header": "Carbon generators for given text (Fixed style)",
-        "usage": [
-            "{tr}kar4 <text>",
-            "{tr}kar4 <reply to text>",
-        ],
-    },
-)
+@register(outgoing=True, pattern="^.kar4")
 async def carbon_api(event):
     """A Wrapper for carbon.now.sh"""
     cat = await edit_or_reply(event, "🌚🌚🌚🌚🌚")
@@ -446,18 +385,7 @@ async def carbon_api(event):
     os.remove("./carbon.png")
     await cat.delete()
 
-
-@catub.cat_cmd(
-    pattern="kargb(?:\s|$)([\s\S]*)",
-    command=("kargb", plugin_category),
-    info={
-        "header": "Carbon generators for given text (random from some selected themes)",
-        "usage": [
-            "{tr}kargb <text>",
-            "{tr}kargb <reply to text>",
-        ],
-    },
-)
+@register(outgoing=True, pattern="^.kargb")
 async def carbon_api(event):
     """A Wrapper for carbon.now.sh"""
     RED = random.randint(0, 256)
